@@ -7,23 +7,27 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { Character } from '../../Models/Character';
+import { Gear, SumStatus } from '../../Models/Gears/Gear';
+import { Status } from '../../Models/Status';
 
 interface CharacterStatusTableProps {
   characters: Character[];
+  gears: Gear[];
 }
 
 export const CharacterStatusTable: React.FunctionComponent<CharacterStatusTableProps> = (props: CharacterStatusTableProps) => {
+  const status: Status = SumStatus(props.gears);
   return (
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell align="left">キャラクター</TableCell>
-            <TableCell align="right">フィジカル</TableCell>
-            <TableCell align="right">スピード</TableCell>
-            <TableCell align="right">シュート</TableCell>
-            <TableCell align="right">パス</TableCell>
-            <TableCell align="right">テクニック</TableCell>
+            <TableCell align="left">キャラクター<br/>ギア合計値</TableCell>
+            <TableCell align="right">フィジカル<br/> {status.strength}</TableCell>
+            <TableCell align="right">スピード<br/> {status.speed}</TableCell>
+            <TableCell align="right">シュート<br/> {status.shooting}</TableCell>
+            <TableCell align="right">パス<br/> {status.passing}</TableCell>
+            <TableCell align="right">テクニック<br/> {status.technique}</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>

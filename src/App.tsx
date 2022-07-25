@@ -141,7 +141,7 @@ const App: React.FunctionComponent = () => {
         </div>
       </div>
 
-      <CharacterStatusTable characters={characters}/>
+      <CharacterStatusTable characters={characters} gears={[head, arms, body, legs]}/>
     </React.Fragment>
   )
 }
