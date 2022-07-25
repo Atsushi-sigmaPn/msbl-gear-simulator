@@ -38,11 +38,11 @@ const App: React.FunctionComponent = () => {
   }
 
   function updateStatus(character: Character): Character {
-    console.log("updateStatus");
-    console.log(head);
-    console.log(arms);
-    console.log(body);
-    console.log(legs);
+    // console.log("updateStatus");
+    // console.log(head);
+    // console.log(arms);
+    // console.log(body);
+    // console.log(legs);
     let copyCharacter: Character = JSON.parse(JSON.stringify(character));
     copyCharacter = updateStatusGear(copyCharacter, head);
     copyCharacter = updateStatusGear(copyCharacter, arms);

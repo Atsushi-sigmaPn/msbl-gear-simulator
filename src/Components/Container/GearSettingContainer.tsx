@@ -21,8 +21,8 @@ const GearSettingContainer: React.FunctionComponent<GearSettingsContainerProps> 
     // }
 
     function handleChange(gear: Gear) {
-        console.log("GearSettingContainer : handleChange");
-        console.log(gear);
+        // console.log("GearSettingContainer : handleChange");
+        // console.log(gear);
         props.dispatchSelecteGear(gear);
     }
 
