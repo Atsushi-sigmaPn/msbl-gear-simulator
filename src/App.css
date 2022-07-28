@@ -1,0 +1,19 @@
+.grid-container {
+  display: grid;
+}
+
+.input-gear-head {
+  grid-row: 1/2;
+}
+
+.input-gear-arms {
+  grid-row: 2/3;
+}
+
+.input-gear-body {
+  grid-row: 3/4;
+}
+
+.input-gear-legs {
+  grid-row: 4/5;
+}
