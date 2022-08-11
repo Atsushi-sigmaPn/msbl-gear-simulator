@@ -50,7 +50,7 @@ const CannonBoots: Gear = {
 
 const ChainBoots: Gear = {
     part: Part.Legs,
-    name: "チェインブーツ",
+    name: "チェーンブーツ",
     status: {
         strength:   -2,
         speed:       0,

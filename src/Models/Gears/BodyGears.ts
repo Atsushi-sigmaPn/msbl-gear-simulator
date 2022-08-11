@@ -50,7 +50,7 @@ const CannonPlate: Gear = {
 
 const ChainPlate: Gear = {
     part: Part.Body,
-    name: "チェインプレート",
+    name: "チェーンプレート",
     status: {
         strength:    0,
         speed:       0,

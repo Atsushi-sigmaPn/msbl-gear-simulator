@@ -50,7 +50,7 @@ const CannonVisor: Gear = {
 
 const ChainHelmet: Gear = {
     part: Part.Head,
-    name: "チェインヘルメット",
+    name: "チェーンヘルメット",
     status: {
         strength:    0,
         speed:      -2,
