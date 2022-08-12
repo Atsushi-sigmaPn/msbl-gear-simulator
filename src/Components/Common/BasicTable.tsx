@@ -23,11 +23,11 @@ export const CharacterStatusTable: React.FunctionComponent<CharacterStatusTableP
         <TableHead>
           <TableRow>
             <TableCell align="left">キャラクター<br/>ギア合計値</TableCell>
-            <TableCell align="right">フィジカル<br/> {status.strength}</TableCell>
-            <TableCell align="right">スピード<br/> {status.speed}</TableCell>
-            <TableCell align="right">シュート<br/> {status.shooting}</TableCell>
-            <TableCell align="right">パス<br/> {status.passing}</TableCell>
-            <TableCell align="right">テクニック<br/> {status.technique}</TableCell>
+            <TableCell align="right" width={80}>フィジカル<br/> {status.strength}</TableCell>
+            <TableCell align="right" width={80}>スピード<br/> {status.speed}</TableCell>
+            <TableCell align="right" width={80}>シュート<br/> {status.shooting}</TableCell>
+            <TableCell align="right" width={80}>パス<br/> {status.passing}</TableCell>
+            <TableCell align="right" width={80}>テクニック<br/> {status.technique}</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
