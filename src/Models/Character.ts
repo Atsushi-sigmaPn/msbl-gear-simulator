@@ -150,6 +150,30 @@ const Daisy: Character = {
     }    
 }
 
+const Pauline: Character = {
+    id: 13,
+    name: "ポリーン",
+    status: {
+        strength:   20,
+        speed:      16,
+        shooting:    9,
+        passing:     9,
+        technique:   9,
+    }    
+}
+
+const DiddyKong: Character = {
+    id: 14,
+    name: "ディディーコング",
+    status: {
+        strength:    9,
+        speed:      16,
+        shooting:    9,
+        passing:    16,
+        technique:  13,
+    }    
+}
+
 export const Characters: Character[] = [
     Mario, 
     Luigi, 
@@ -163,4 +187,6 @@ export const Characters: Character[] = [
     Waluigi,
     ShyGuy,
     Daisy,
+    Pauline,
+    DiddyKong
 ]
