@@ -116,5 +116,6 @@ export const LegsGears: Gear[] = [
     ChainBoots,
     TrickBoots,
     BushidoSandals,
-    KnightBoots
+    KnightBoots,
+    BarrelBoots,
 ]

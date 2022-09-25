@@ -116,5 +116,6 @@ export const BodyGears: Gear[] = [
     ChainPlate,
     TrickPad,
     BushidoArmor,
-    KnightPlate
+    KnightPlate,
+    BarrelPlate,
 ]
