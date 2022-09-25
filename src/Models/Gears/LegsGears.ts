@@ -96,6 +96,18 @@ const KnightBoots: Gear = {
     }
 }
 
+const BarrelBoots: Gear = {
+    part: Part.Legs,
+    name: "バレルブーツ",
+    status: {
+        strength:   +1,
+        speed:      -2,
+        shooting:   +2,
+        passing:    +1,
+        technique:  -2,
+    }
+}
+
 export const LegsGears: Gear[] = [
     NoGear,
     MascleBoots,

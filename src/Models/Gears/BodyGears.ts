@@ -96,6 +96,18 @@ const KnightPlate: Gear = {
     }
 }
 
+const BarrelPlate: Gear = {
+    part: Part.Body,
+    name: "バレルプレート",
+    status: {
+        strength:   -1,
+        speed:      -1,
+        shooting:   +2,
+        passing:    +2,
+        technique:  -2,
+    }
+}
+
 export const BodyGears: Gear[] = [
     NoGear,
     MascleChest,
