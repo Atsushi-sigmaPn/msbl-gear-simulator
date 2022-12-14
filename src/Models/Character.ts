@@ -174,6 +174,30 @@ const DiddyKong: Character = {
     }    
 }
 
+const BowserJr: Character = {
+    id: 15,
+    name: "クッパJr.",
+    status: {
+        strength:   13,
+        speed:      13,
+        shooting:   11,
+        passing:    17,
+        technique:   9,
+    }    
+}
+
+const Birdo: Character = {
+    id: 16,
+    name: "キャサリン",
+    status: {
+        strength:    9,
+        speed:      10,
+        shooting:   18,
+        passing:     9,
+        technique:  17,
+    }    
+}
+
 export const Characters: Character[] = [
     Mario, 
     Luigi, 
@@ -188,5 +212,7 @@ export const Characters: Character[] = [
     ShyGuy,
     Daisy,
     Pauline,
-    DiddyKong
+    DiddyKong,
+    BowserJr,
+    Birdo,
 ]

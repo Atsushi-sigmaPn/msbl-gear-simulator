@@ -108,6 +108,17 @@ const BarrelHelmet: Gear = {
     }
 }
 
+const ShellHelmet: Gear = {
+    part: Part.Head,
+    name: "シェルヘルメット",
+    status: {
+        strength:   -2,
+        speed:      +2,
+        shooting:   -1,
+        passing:    -1,
+        technique:  +2,
+    }
+}
 export const HeadGears: Gear[] = [
     NoGear,
     MascleHelmet,
@@ -118,4 +129,5 @@ export const HeadGears: Gear[] = [
     BushidoHelmet,
     KnightHelmet,
     BarrelHelmet,
+    ShellHelmet,
 ]

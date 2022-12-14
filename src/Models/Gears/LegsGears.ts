@@ -108,6 +108,18 @@ const BarrelBoots: Gear = {
     }
 }
 
+const ShellBoots: Gear = {
+    part: Part.Legs,
+    name: "シェルブーツ",
+    status: {
+        strength:   -2,
+        speed:      +2,
+        shooting:   -2,
+        passing:    +1,
+        technique:  +1,
+    }
+}
+
 export const LegsGears: Gear[] = [
     NoGear,
     MascleBoots,
@@ -118,4 +130,5 @@ export const LegsGears: Gear[] = [
     BushidoSandals,
     KnightBoots,
     BarrelBoots,
+    ShellBoots,
 ]

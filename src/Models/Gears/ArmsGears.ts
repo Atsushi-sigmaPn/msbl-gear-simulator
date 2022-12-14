@@ -108,6 +108,18 @@ const BarrelGauntlets: Gear = {
     }
 }
 
+const ShellGauntlets: Gear = {
+    part: Part.Arms,
+    name: "シェルガントレット",
+    status: {
+        strength:   +1,
+        speed:      +2,
+        shooting:   -2,
+        passing:    -2,
+        technique:  +1,
+    }
+}
+
 export const ArmsGears: Gear[] = [
     NoGear,
     MascleGauntlets,
@@ -118,4 +130,5 @@ export const ArmsGears: Gear[] = [
     BushidoBracers,
     KnightGauntlets,
     BarrelGauntlets,
+    ShellGauntlets,
 ]

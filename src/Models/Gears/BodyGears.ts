@@ -108,6 +108,18 @@ const BarrelPlate: Gear = {
     }
 }
 
+const ShellChest: Gear = {
+    part: Part.Body,
+    name: "シェルチェスト",
+    status: {
+        strength:   -2,
+        speed:      +2,
+        shooting:   +1,
+        passing:    -2,
+        technique:  +1,
+    }
+}
+
 export const BodyGears: Gear[] = [
     NoGear,
     MascleChest,
@@ -118,4 +130,5 @@ export const BodyGears: Gear[] = [
     BushidoArmor,
     KnightPlate,
     BarrelPlate,
+    ShellChest,
 ]
